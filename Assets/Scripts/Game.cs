@@ -14,8 +14,6 @@ public class Game : MonoBehaviour
 
     [SerializeField] float spinSpeed = 10;
 
-    float currentDeadAngle = 0;
-
 
     bool IsAngleBetween(float angle, float angleStart, float angleEnd)
     {
